@@ -1,0 +1,17 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.crear {
+    margin-top: 4rem;
+  .taskwave {
+    @include m.textoDegradado(v.$verde, v.$amarillo);
+  }
+  input[type="submit"] {
+    @include m.boton(v.$verde, v.$blanco);
+  }
+  .acciones {
+    a{
+      color: v.$verde;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "juandelatorre/up-task_mvc",
+    "description": "Proyecto UpTask MVC, PHP 8, SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Entity\\": "./src/Entity",
+            "Classes\\": "./classes"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "doctrine/orm": "^2.10",
+        "doctrine/cache": "^1.11",
+        "doctrine/annotations": "^1.0",
+        "ext-pdo_mysql": "*"
+    }
+}

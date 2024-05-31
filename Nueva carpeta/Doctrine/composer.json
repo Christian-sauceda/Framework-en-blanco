@@ -1,0 +1,18 @@
+{
+    "name": "chris/doctrine",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Chris\\Doctrine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian-sauceda",
+            "email": "81939528+Christian-sauceda@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^3.1"
+    }
+}
